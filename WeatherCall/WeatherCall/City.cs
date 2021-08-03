@@ -6,6 +6,10 @@ namespace WeatherCall
 {
     class City
     {
-        public string name { get; set; }
+        public float Id { get; set; }
+        public string Name { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+        public CoordCity Coords { get; set; }
     }
 }

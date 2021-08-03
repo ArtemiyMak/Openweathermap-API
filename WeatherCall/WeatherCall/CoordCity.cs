@@ -4,8 +4,9 @@ using System.Text;
 
 namespace WeatherCall
 {
-    class CitiesNames
+    class CoordCity
     {
-        public List<City> Cities { get; set; }
+        public double Lon { get; set; }
+        public double Lat { get; set; }
     }
 }
